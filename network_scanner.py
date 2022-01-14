@@ -33,4 +33,4 @@ def print_result(results_list):
 
 options = get_input()
 scan_result = scan(options.target)
-print_result(scan_result)
+print_result(scan_result) 
