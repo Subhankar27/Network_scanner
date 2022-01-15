@@ -29,6 +29,8 @@ def scan(ip):
         # print(element[1].psrc + "\t\t" + element[1].hwsrc)
     return clients_list
 
+
+
 def print_result(results_list):
     print("IP Address \t\tMAC Address\n-------------------------------------")
     for client in results_list:
