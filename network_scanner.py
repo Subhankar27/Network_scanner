@@ -9,6 +9,8 @@ def get_input():
     options = parser.parse_args()
     return options
 
+
+
 def scan(ip):
     arp_request = scapy.ARP(pdst=ip)
     broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
