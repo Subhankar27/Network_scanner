@@ -3,7 +3,6 @@
 import scapy.all as scapy
 import argparse
 
-
 def get_input():
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--target", dest="target", help="Target IP range.")
