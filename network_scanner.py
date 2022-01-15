@@ -20,6 +20,7 @@ def scan(ip):
     
 
     # print("IP\t\t\tMAC Adress\n---------------------------------")
+    
     clients_list = []
     print("\n-------------------------------------")
     for element in answered_list:
